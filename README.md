@@ -3,16 +3,17 @@
 > [!WARNING]
 > Use of this tool may violate ScratchTeam's terms of use.
 
-```python
-pip install scratchclient
-pip install keyboard
-pip install requests
+```bat
+> pip install scratchclient
+> pip install keyboard
+> pip install requests
+> pip install flet
 ```
 
 ## .svprofile
-version,,username,,password,,nolog,,debuglog,,projectid
+version,,username,,password,,nolog,,debuglog,,projectid,,GUI,,
 
-`1,,hello,,world,,false,,true,,#######`
+`1,,hello,,world,,false,,true,,#######,,true,,`
 
 ## CloudVariable
 `☁__REQUEST` Request URL
